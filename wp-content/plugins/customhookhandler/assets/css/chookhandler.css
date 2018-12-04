@@ -1,0 +1,102 @@
+.newsubscriber {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.preformprocess {
+    float: left;
+    width: 100%;
+    text-align: right;
+    margin-bottom:40px;
+}
+.preformbox {
+    float: right;
+    position: absolute;
+    right: 40px;
+    margin-top: 50px;
+    transition: all 1s ease;
+    position: absolute;
+    height: 0%;
+    overflow: hidden;
+    max-height: 800px;
+}
+.preformbox.active {
+  height:100%;
+}
+.detail-item-data {
+    float: left;
+    width: 100%;
+    background: #389fd8;
+    padding: 8px;
+    margin-bottom: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.detail-item-data:last-child {
+    margin-bottom:0;
+}
+.preformbox-data {
+    float: right;
+    background: #ddd;
+    color: white;
+    box-shadow: 0px 0px 13px #333;
+    margin: 10px 0;
+    width: 280px;
+}
+.woocommerce-MyAccount-content
+{
+position:relative;
+}
+.woocommerce-MyAccount-content .gforms_confirmation_message + .newcheckout
+{
+display:none;
+}
+.woocommerce-MyAccount-content  a.newcheckoutbtn
+{
+    background: #243878;
+    color: #fff!important;
+    padding: 10px 13%;
+    border: 1px solid #243878;
+    border-radius: 5px;
+}
+.woocommerce-MyAccount-content  a.newcheckoutbtn:hover
+{
+background: #fff!important;
+    color: #243878!important;
+}
+.newcheckout {
+    position: absolute;
+    right: 40px;
+    display:none;
+    bottom: 105px;
+    width:110px;
+}
+.woocommerce-MyAccount-content .gf_browser_chrome.gform_wrapper + .newcheckout {
+display:block;
+}
+.newcheckout-shop {
+    float: right;
+    position: relative;
+    width: 100%;
+    text-align: right;
+}
+.newcheckout-shop  a.newcheckoutbtn
+{
+background: #243878;
+    color: #fff!important;
+    padding: 10px 7%;
+    border: 1px solid #243878;
+    border-radius: 5px;
+    width: auto;
+    margin-bottom: 40px;
+    float: right;
+}
+.newcheckout-shop a.newcheckoutbtn:hover
+{
+background: #fff!important;
+    color: #243878!important;
+}
+.woocommerce-link--checkout {
+    background: url("../img/reg.png");
+}
