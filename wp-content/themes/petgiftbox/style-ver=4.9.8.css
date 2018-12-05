@@ -48,7 +48,7 @@ div.main-container.transition--fade.transition--active {
 div#pb-header-text,
 div#pb-header-button {
   position: relative;
-  top: -18em;
+  top: 2.3em;
   text-align: center;
   width: 100%;
   font-family: "Lato", sans-serif;
@@ -944,16 +944,16 @@ div.vc_toggle_content p span {
   /* line 754, sass/style.scss */
   div#pb-header-text {
     font-size: 2.5em;
-    top: -10.5em;
+    top: 2.5em;
     text-align: initial;
-    margin-left: 6.3%;
+    margin-left: 5.4%;
     position: relative;
   }
 
   /* line 758, sass/style.scss */
   div#pb-header-button {
-    top: -6.8em;
-    right: 16em;
+    top: 21em;
+    right: 16.5em;
   }
   /* line 761, sass/style.scss */
   div#pb-header-button img {
@@ -1086,6 +1086,9 @@ div.vc_toggle_content p span {
     background: url(http://www.vetbox.us/wp-content/uploads/2018/11/Petbox_Mobile_v.1-header-img.png) no-repeat center;
     background-size: contain;
     background-position-y: inherit;
+    height: 564px;
+    width: 1149px;
+    margin-left: 2%;
   }
 }
 
