@@ -1082,6 +1082,11 @@ div.vc_toggle_content p span {
   div#pb-customer-service-title {
     text-align: center;
   }
+  div#header-img {
+    background: url(http://www.vetbox.us/wp-content/uploads/2018/11/Petbox_Mobile_v.1-header-img.png) no-repeat center;
+    background-size: contain;
+    background-position-y: inherit;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
