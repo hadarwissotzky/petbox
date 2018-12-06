@@ -1136,6 +1136,11 @@ div#header-img {
     display: inline-block;
     width: 100%;
     text-align: center;
+    margin-top: 2%;
+  }
+  #footer-footer{
+
+    border-top: solid 1px;
   }
   /* line 845, sass/style.scss */
   footer.footer-3 div.pb-footer-row div.col-sm-3,
