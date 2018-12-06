@@ -929,6 +929,22 @@ div#header-img {
   }
   div#header-img {
     background: url(http://www.vetbox.us/wp-content/uploads/2018/11/Petbox_Mobile_v.1-header-img-mobile.png) no-repeat center;
+    background-size: contain;
+  }
+}
+
+@media only screen and (min-width : 321px) {
+  div#header-img {
+    background: url(http://www.vetbox.us/wp-content/uploads/2018/11/Petbox_Mobile_v.1-header-img-mobile.png) no-repeat top;
+    background-size: contain;
+    height: 379px;
+  }
+  div#pb-header-text {
+    top: 1.3em;
+    text-align: left;
+  }
+  div#pb-header-button{
+    top: 10.3em;
   }
 }
 @media (min-width: 768px) {
