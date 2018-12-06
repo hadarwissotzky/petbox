@@ -977,7 +977,18 @@ div#header-img {
   .nav-mobile-toggle i {
     display: none;
   }
+  footer.footer-3 .logo {
+    max-height: 1.4375em;
+    margin-bottom: 0px;
+    padding-left: 1%;
+  }
 }
+
+#footer-footer{
+
+  border-top: solid 28px #f8f8f8;
+}
+
 @media (min-width: 990px) {
   /* line 727, sass/style.scss */
   .nav-bar.nav--absolute.nav--transparent {
@@ -1138,10 +1149,7 @@ div#header-img {
     text-align: center;
     margin-top: 2%;
   }
-  #footer-footer{
 
-    border-top: solid 28px #f8f8f8;
-  }
   /* line 845, sass/style.scss */
   footer.footer-3 div.pb-footer-row div.col-sm-3,
   footer.footer-3 div.pb-footer-row div.col-sm-6 {
