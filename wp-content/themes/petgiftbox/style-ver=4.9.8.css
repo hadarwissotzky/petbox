@@ -1140,7 +1140,7 @@ div#header-img {
   }
   #footer-footer{
 
-    border-top: solid 1px;
+    border-top: solid 28px #f8f8f8;
   }
   /* line 845, sass/style.scss */
   footer.footer-3 div.pb-footer-row div.col-sm-3,
