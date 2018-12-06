@@ -895,9 +895,66 @@ div.vc_toggle_content p span {
   font-weight: bold;
 }
 
+div#header-img {
+  background: url(http://www.vetbox.us/wp-content/uploads/2018/11/Petbox_Mobile_v.1-header-img.png) no-repeat center;
+  background-position-y: inherit;
+  background-size: contain;
+  height: 564px;
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+  padding: 1.5em;
+  font-family: "Lato", sans-serif;
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  div#header-img {
+    height: 208px;
+  }
+  div#pb-header-text {
+    font-size: inherit;
+    top: -0.7em;
+    text-align: left;
+    margin-left: -20px;
+  }
+  .nav-bar .logo{
+    max-height: 25%;
+  }
+  .nav-mobile-toggle i {
+    display: none;
+  }
+  div#pb-header-button {
+    top: 3.3em;
+    text-align: initial;
+  }
+}
 @media (min-width: 768px) {
   /* line 721, sass/style.scss */
   section#pb-input-form {
+    display: none;
+  }
+  div#pb-header-button img {
+    width: 10%;
+  }
+  div#pb-header-button {
+    top: 14em;
+    right: 14.5em;
+  }
+
+  div#pb-header-text {
+    font-size: 2.5em;
+    top: 1.5em;
+    text-align: initial;
+    margin-left: 1.4%;
+    position: relative;
+  }
+  div#header-img {
+    height:429px;
+  }
+  .nav-bar{
+    padding: 0px 25px;
+  }
+  .nav-mobile-toggle i {
     display: none;
   }
 }
@@ -905,8 +962,8 @@ div.vc_toggle_content p span {
   /* line 727, sass/style.scss */
   .nav-bar.nav--absolute.nav--transparent {
     color: #54c0e8;
-    max-width: 1144px;
-    left: 10%;
+    max-width: 1152px;
+    left: 8%;
   }
 
   /* line 732, sass/style.scss */
@@ -946,7 +1003,7 @@ div.vc_toggle_content p span {
     font-size: 2.5em;
     top: 2.5em;
     text-align: initial;
-    margin-left: 5.4%;
+    margin-left: 2.4%;
     position: relative;
   }
 
@@ -1084,12 +1141,20 @@ div.vc_toggle_content p span {
   }
   div#header-img {
     background: url(http://www.vetbox.us/wp-content/uploads/2018/11/Petbox_Mobile_v.1-header-img.png) no-repeat center;
-    background-size: contain;
     background-position-y: inherit;
+    background-size: contain;
     height: 564px;
-    width: 1149px;
-    margin-left: 2%;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+    padding: 1.5em;
+    font-family: "Lato", sans-serif;
   }
+}
+.benefit-text {
+  margin-top: 2%;
+  padding-left: 14%;
+  padding-right: 14%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
