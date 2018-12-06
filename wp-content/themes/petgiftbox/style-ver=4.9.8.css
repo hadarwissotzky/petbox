@@ -927,6 +927,9 @@ div#header-img {
     top: 3.3em;
     text-align: initial;
   }
+  div#header-img {
+    background: url(http://www.vetbox.us/wp-content/uploads/2018/11/Petbox_Mobile_v.1-header-img-mobile.png) no-repeat center;
+  }
 }
 @media (min-width: 768px) {
   /* line 721, sass/style.scss */
@@ -950,6 +953,7 @@ div#header-img {
   }
   div#header-img {
     height:429px;
+
   }
   .nav-bar{
     padding: 0px 25px;
