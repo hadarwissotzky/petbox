@@ -983,7 +983,7 @@ div#header-img {
   .nav-bar.nav--absolute.nav--transparent {
     color: #54c0e8;
     max-width: 1152px;
-    left: 11%;
+    left: 10%;
   }
 
   /* line 732, sass/style.scss */
@@ -1029,8 +1029,8 @@ div#header-img {
 
   /* line 758, sass/style.scss */
   div#pb-header-button {
-    top: 21em;
-    right: 16.5em;
+    top: 19em;
+    right: 17em;
   }
   /* line 761, sass/style.scss */
   div#pb-header-button img {
@@ -1127,6 +1127,7 @@ div#header-img {
   footer.footer-3 .logo {
     margin-left: auto;
     margin-right: auto;
+    max-height: 1.4375em;
   }
   /* line 840, sass/style.scss */
   footer.footer-3 div.pb-footer-row {
