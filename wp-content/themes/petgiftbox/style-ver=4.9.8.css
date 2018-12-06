@@ -907,7 +907,7 @@ div#header-img {
 
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media screen and (orientation:portrait)  {
   div#header-img {
     height: 208px;
   }
@@ -933,7 +933,7 @@ div#header-img {
   }
 }
 
-@media only screen and (min-width : 321px) {
+@media screen and (orientation:landscape){
   div#header-img {
     background: url(http://www.vetbox.us/wp-content/uploads/2018/11/Petbox_Mobile_v.1-header-img-mobile.png) no-repeat top;
     background-size: contain;
