@@ -605,7 +605,7 @@ section#pb-input-form {
 
 /* line 448, sass/style.scss */
 footer.footer-3 {
-  background-color: #54c0e8;
+  background-color: #f79468;
   margin: 2em 1.5em 3em 1.5em;
   padding-top: 2em;
   padding-bottom: 0;
@@ -1145,6 +1145,7 @@ div#header-img {
   /* line 849, sass/style.scss */
   footer.footer-3 div.pb-footer-row div.col-sm-3.text-right.text-center-xs {
     text-align: center;
+    margin-top: 9%;
   }
   /* line 853, sass/style.scss */
   footer.footer-3 div#footer-title {
