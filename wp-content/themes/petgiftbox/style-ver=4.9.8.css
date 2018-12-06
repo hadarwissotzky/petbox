@@ -931,6 +931,13 @@ div#header-img {
     background: url(http://www.vetbox.us/wp-content/uploads/2018/11/Petbox_Mobile_v.1-header-img-mobile.png) no-repeat center;
     background-size: contain;
   }
+  /* line 836, sass/style.scss */
+  footer.footer-3 .logo {
+    max-height: 1.4375em;
+    margin-bottom: 0px;
+    padding-left: 1%;
+    margin-top: 2%;
+  }
 }
 
 @media screen and (orientation:landscape){
@@ -977,11 +984,7 @@ div#header-img {
   .nav-mobile-toggle i {
     display: none;
   }
-  footer.footer-3 .logo {
-    max-height: 1.4375em;
-    margin-bottom: 0px;
-    padding-left: 1%;
-  }
+
 }
 
 #footer-footer{
