@@ -955,6 +955,10 @@ div#header-img {
     top: 7.3em;
     right: 12.8em;
   }
+  .nav-bar .logo {
+    margin-left: 5%;
+    max-height: 29%;
+  }
 }
 @media (min-width: 768px) {
   /* line 721, sass/style.scss */
