@@ -1207,3 +1207,11 @@ div#header-img {
   color: rgb(213, 217, 220);
 }
 /*# sourceMappingURL=style.css.map */
+
+@media (max-width: 767px) {
+  .footer-3 .logo {
+    max-height: 1.625em;
+    margin-top: 3%;
+  }
+
+}
