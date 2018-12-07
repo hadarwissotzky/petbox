@@ -1203,4 +1203,7 @@ div#header-img {
   text-align: center;
 }
 
+input::placeholder {
+  color: rgb(213, 217, 220);
+}
 /*# sourceMappingURL=style.css.map */
