@@ -918,7 +918,8 @@ div#header-img {
     margin-left: -20px;
   }
   .nav-bar .logo{
-    max-height: 25%;
+    max-height: 22%;
+    margin-left: 5%;
   }
   .nav-mobile-toggle i {
     display: none;
