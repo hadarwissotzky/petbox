@@ -940,6 +940,17 @@ div#header-img {
     padding-left: 1%;
     margin-top: 2%;
   }
+  #mc_embed_signup .mc-field-group.input-group label {
+    font-size: 13px !important;
+    top: -7.5px !important;
+  }
+  #mc_embed_signup .button {
+    width: 39% !important;
+    font-size: 13px !important;
+  }
+  #mc_embed_signup .mc-field-group strong {
+    font-size: 13px !important;
+  }
 }
 
 @media screen and (orientation:landscape){
